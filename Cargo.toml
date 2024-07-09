@@ -4,3 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+chrono = "0.4" 
+ndarray = { version = "0.15", features = ["serde"] } 
+rand = "0.8" 
+serde = { version = "1", features = [ "derive" ] } 
+
+[[bin]]
+name = "main"
